@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Navbar from "$lib/Navbar.svelte";
 	let { children } = $props();
 </script>
 
@@ -6,15 +7,8 @@
     <title>
         Ren and the Stimpies
     </title>
-    <h1>
-        Ren and the Stimpies
-    </h1>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/music">Music</a>
-        <a href="/contact">Contact</a>
-    </nav>
+    
+    <Navbar/>
 
     {@render children()}
 
@@ -67,14 +61,5 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    nav > a {
-        color: inherit;
-        text-decoration: inherit;
-    }
-
-    nav > a:hover {
-        text-decoration: underline;
     }
 </style>
