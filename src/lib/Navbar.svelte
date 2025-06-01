@@ -12,6 +12,8 @@
         <a class="link" href="/music">Music</a>
         <a class="link" href="/contact">Contact</a>
     </nav>
+    <hr class="line"/>
+    <hr class="line"/>
 </div>
 
 <style>
@@ -19,6 +21,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
 
     .link {
@@ -28,5 +31,13 @@
 
     .link:hover {
         text-decoration: underline;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        border-width: 0;
+        background-color: var(--color-primary);
+        margin: 3px;
     }
 </style>

@@ -31,12 +31,18 @@
         src: url('$lib/fonts/Perfect DOS VGA 437.ttf');
     }
 
+    :root {
+        --color-background: #000;
+        --color-text: #eee;
+        --color-primary: crimson;
+    }
+
     :global {
         body {
             font-family: 'Perfect DOS VGA 437';
             font-size: 1.5em;
-            color: #eee;
-            background-color: #000;
+            color: var(--color-text);
+            background-color: var(--color-background);
         }
 
         h1, h2, h3, h4, h5, h6 {
