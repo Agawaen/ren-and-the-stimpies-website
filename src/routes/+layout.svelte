@@ -68,4 +68,13 @@
         flex-direction: column;
         align-items: center;
     }
+
+    nav > a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
 </style>
