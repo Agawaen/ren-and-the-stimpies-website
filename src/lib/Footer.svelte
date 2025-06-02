@@ -16,23 +16,22 @@
 
 <style>
     footer {
-        position: fixed;
-        bottom: 2vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100vw;
+        margin-top: auto;
     }
 
     h3 {
-        margin: 0 3.5em 0 0;
+        margin: 0 4em 0 0;
     }
 
     .line {
         width: 100%;
         height: 1px;
         border-width: 0;
-        margin: 1em;
+        margin: 1em 0 0 0;
         background-color: var(--color-text);
     }
 
@@ -44,6 +43,7 @@
         gap: 1em;
         width: 50%;
         min-width: 500px;
+        padding: 1em 0;
     }
 
     :global(.icon) {

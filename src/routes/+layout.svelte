@@ -48,6 +48,7 @@
             font-size: 1.5em;
             color: var(--color-text);
             background-color: var(--color-background);
+            margin: 0;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -76,6 +77,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        min-height: 100vh;
+        margin: 0;
     }
 
     .page-content {
