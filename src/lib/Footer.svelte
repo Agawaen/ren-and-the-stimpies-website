@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Instagram from "$lib/icons/Instagram.svelte";
     import Tiktok from "./icons/Tiktok.svelte";
+    import Youtube from "./icons/Youtube.svelte";
 </script>
 
 <footer>
@@ -9,6 +10,7 @@
         <h3>Ren and<br>the Stimpies</h3>
         <a href="https://www.instagram.com/renandthestimpies/"><Instagram class="icon"/></a>
         <a href="https://www.instagram.com/renandthestimpies/"><Tiktok class="icon"/></a>
+        <a href="https://www.instagram.com/renandthestimpies/"><Youtube class="icon"/></a>
     </div>
 </footer>
 
@@ -23,7 +25,7 @@
     }
 
     h3 {
-        margin: 0 3em 0 0;
+        margin: 0 3.5em 0 0;
     }
 
     .line {
