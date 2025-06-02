@@ -42,8 +42,8 @@
         align-items: center;
         justify-content: center;
         gap: 1em;
-        width: 50%;
-        min-width: 500px;
+        width: var(--container-width);
+        min-width: var(--container-min-width);
         padding: 1em 0;
     }
 

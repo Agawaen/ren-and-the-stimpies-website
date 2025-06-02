@@ -40,6 +40,9 @@
         --color-text: #eee;
         --color-primary: #cc0033;
         --color-secondary: #bb0099;
+
+        --container-width: 50%;
+        --container-min-width: 500px;
     }
 
     :global {
@@ -86,7 +89,7 @@
         flex-direction: column;
         align-items: center;
         text-align: left;
-        width: 50%;
-        min-width: 500px;
+        width: var(--container-width);
+        min-width: var(--container-min-width);
     }
 </style>
