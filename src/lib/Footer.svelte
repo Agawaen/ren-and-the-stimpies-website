@@ -7,7 +7,7 @@
 <footer>
     <hr class="line">
     <div class="content">
-        <h3>Ren and<br>the Stimpies</h3>
+        <h3 class="name">Ren and<br>the Stimpies</h3>
         <a href="https://www.instagram.com/renandthestimpies/"><Instagram class="icon"/></a>
         <a href="https://www.instagram.com/renandthestimpies/"><Tiktok class="icon"/></a>
         <a href="https://www.instagram.com/renandthestimpies/"><Youtube class="icon"/></a>
@@ -23,8 +23,9 @@
         margin-top: auto;
     }
 
-    h3 {
-        margin: 0 4em 0 0;
+    .name {
+        margin: 0;
+        margin-right: auto;
     }
 
     .line {

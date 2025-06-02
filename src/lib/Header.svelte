@@ -41,6 +41,11 @@
         flex-direction: column;
         align-items: center;
         width: 100vw;
+        margin: 0 0 0.5em 0;
+    }
+
+    nav {
+        margin: 0 0 0.1em 0;
     }
 
     .link {
