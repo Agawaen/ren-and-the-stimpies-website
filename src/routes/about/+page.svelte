@@ -23,7 +23,6 @@
 
     img {
         width: 100%;
-        min-width: var(--container-min-width);
         margin: 1em 0;
     }
 </style>
