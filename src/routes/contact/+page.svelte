@@ -5,6 +5,7 @@
     .email {
         color: inherit;
         text-decoration: inherit;
+        word-break: break-all;
     }
 
     .email:hover {
