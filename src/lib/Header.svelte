@@ -1,5 +1,3 @@
-<!-- <a class="link" href="/" class:active={currentPath == "/"}>{currentPath == "/" ? "<" : ""}Home{currentPath == "/" ? ">" : ""}</a> -->
-
 <script lang="ts">
     import { page } from "$app/state";
     import { afterNavigate } from "$app/navigation";
