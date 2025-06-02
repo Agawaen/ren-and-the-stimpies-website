@@ -1,2 +1,13 @@
 <h2>Contact</h2>
-<p>This is the contact page.</p>
+<p>Email <a href="mailto:renandthestimpies@gmail.com" class="email">renandthestimpies@gmail.com</a> or DM one of our socials for booking and other inquiries.</p>
+
+<style>
+    .email {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    .email:hover {
+        text-decoration: underline;
+    }
+</style>

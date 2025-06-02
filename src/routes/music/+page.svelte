@@ -1,2 +1,2 @@
 <h2>Music</h2>
-<p>This is the Music page.</p>
+<p>Yeah... We have no recordings right now. Give us a little time.</p>

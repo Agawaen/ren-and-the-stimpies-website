@@ -1,2 +1,2 @@
 <h2>Home</h2>
-<p>This is the home page.</p>
+<p>No upcoming shows for now...</p>

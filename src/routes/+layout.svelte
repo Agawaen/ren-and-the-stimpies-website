@@ -1,5 +1,6 @@
 <script lang="ts">
-    import Navbar from "$lib/Navbar.svelte";
+    import Header from "$lib/Header.svelte";
+    import Footer from "$lib/Footer.svelte"
 	let { children } = $props();
 </script>
 
@@ -8,10 +9,13 @@
         Ren and the Stimpies
     </title>
 
-    <Navbar/>
+    <Header/>
 
-    {@render children()}
+    <div class="page-content">
+        {@render children()}
+    </div>
 
+    <Footer/>
 </div>
 
 <style>
@@ -34,7 +38,8 @@
     :root {
         --color-background: #000;
         --color-text: #eee;
-        --color-primary: crimson;
+        --color-primary: #cc0033;
+        --color-secondary: #bb0099;
     }
 
     :global {
@@ -71,5 +76,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: 50%;
+        min-width: 500px;
     }
 </style>
