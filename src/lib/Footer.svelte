@@ -26,6 +26,7 @@
     .name {
         margin: 0;
         margin-right: auto;
+        font-size: clamp(1em, 5vw, 1.5em);
     }
 
     .line {
@@ -43,7 +44,7 @@
         justify-content: center;
         gap: 1em;
         width: var(--container-width);
-        min-width: var(--container-min-width);
+        max-width: var(--container-max-width);
         padding: 1em 0;
     }
 

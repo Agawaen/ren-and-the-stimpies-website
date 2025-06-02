@@ -49,7 +49,7 @@
     .link {
         color: inherit;
         text-decoration: inherit;
-        margin: 0 0.5em;
+        margin: 0 clamp(0.25em, 2vw, 0.5em);
     }
 
     .link:hover {

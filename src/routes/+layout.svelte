@@ -41,8 +41,8 @@
         --color-primary: #cc0033;
         --color-secondary: #bb0099;
 
-        --container-width: 50%;
-        --container-min-width: 500px;
+        --container-width: 90%;
+        --container-max-width: 1000px;
     }
 
     :global {
@@ -60,7 +60,7 @@
         }
 
         h1 {
-            font-size: 3em;
+            font-size: clamp(2em, 15vw, 3em);
             margin: .5em 0 .25em 0;
             text-align: center;
         }
@@ -90,6 +90,6 @@
         align-items: center;
         text-align: left;
         width: var(--container-width);
-        min-width: var(--container-min-width);
+        max-width: var(--container-max-width);
     }
 </style>
