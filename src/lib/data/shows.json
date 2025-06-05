@@ -12,7 +12,7 @@
         "lineup": ["Squish", "Stovepipe", "Ren and the Stimpies", "Big Squid"],
         "admission": 10,
         "date": "2025-05-17T19:00-07:00",
-        "location": "DM for address",
+        "location": "1740 Canal St, Merced, CA 95340",
         "flyer": "flyer-05172025.jpg"
     },
     {
@@ -21,6 +21,6 @@
         "admission": 10,
         "date": "2025-07-20T19:00-07:00",
         "location": "DM for address",
-        "flyer": ""
+        "flyer": "flyer-07202025.jpg"
     }
 ]
