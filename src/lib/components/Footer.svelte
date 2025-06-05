@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Instagram from "$lib/icons/Instagram.svelte";
-    import Tiktok from "./icons/Tiktok.svelte";
-    import Youtube from "./icons/Youtube.svelte";
+    import Tiktok from "$lib/icons/Tiktok.svelte";
+    import Youtube from "$lib/icons/Youtube.svelte";
 </script>
 
 <footer>

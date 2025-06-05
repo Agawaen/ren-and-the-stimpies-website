@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Backyard Show - April 12",
+        "lineup": ["Tsunami Warning", "Ren and the Stimpies", "Big Squid"],
+        "admission": 5,
+        "date": "2025-04-12T18:30-07:00",
+        "location": "DM for address",
+        "flyer": "flyer-04122025.jpg"
+    },
+    {
+        "name": "Youth Revolutionary Front - May 17",
+        "lineup": ["Squish", "Stovepipe", "Ren and the Stimpies", "Big Squid"],
+        "admission": 10,
+        "date": "2025-05-17T19:00-07:00",
+        "location": "DM for address",
+        "flyer": "flyer-05172025.jpg"
+    },
+    {
+        "name": "Backyard Show - July 20",
+        "lineup": ["eSex", "Ren and the Stimpies", "Spa", "Carport"],
+        "admission": 10,
+        "date": "2025-07-20T19:00-07:00",
+        "location": "DM for address",
+        "flyer": ""
+    }
+]

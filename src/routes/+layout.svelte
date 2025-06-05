@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Header from "$lib/Header.svelte";
-    import Footer from "$lib/Footer.svelte"
+    import Header from "$lib/components/Header.svelte";
+    import Footer from "$lib/components/Footer.svelte"
 	let { children } = $props();
 </script>
 
@@ -67,12 +67,18 @@
 
         h2 {
             font-size: 2em;
-            margin: .4em 0 0 0;
+            margin: .4em 0 0.25em 0;
         }
 
         h3 {
             font-size: 1.5em;
-            margin: .3em 0 0 0;
+            margin: .4em 0 0.25em 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 1.2em;
+            }
         }
     }
 
