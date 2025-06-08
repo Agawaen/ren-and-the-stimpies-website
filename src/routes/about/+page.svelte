@@ -16,6 +16,15 @@
 <img alt="Aidan" src={thriveAidan} />
 <img alt="Jackson" src={thriveJackson} />
 
+<section class="credits">
+    <h3>Credits</h3>
+    <small>
+        Fonts: Alagard by Hewett Tsoi, Perfect DOS VGA 437 by Zeh Fernando
+        <br>
+        Icons: Pixel Icon Library by HackerNoon
+    </small>
+</section>
+
 <style>
     .emoticon {
         font-family: Arial;
@@ -24,5 +33,10 @@
     img {
         width: 100%;
         margin: 0.8em 0;
+    }
+
+    .credits {
+        text-align: center;
+        margin: 3em 0;
     }
 </style>
