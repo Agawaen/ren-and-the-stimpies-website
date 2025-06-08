@@ -5,7 +5,7 @@
         admission: number;
         date: string;
         location: string;
-        flyer: string;
+        flyer: string | null;
     }
 </script>
 
@@ -27,15 +27,17 @@
 </script>
 
 <section style="width: 100%;">
-    <h2>{title}</h2>
+    <h2 class="section-title">{title}</h2>
 
     {#if shows.length}
         {#each shows as {name, lineup, admission, date, location, flyer}}
             <article>
-                <h3>{name}</h3>
+                <h3 class="show-title">{name}</h3>
                 <div class="show-info">
-                    <img class="show-image" alt="Flyer for {name}" src={"/flyers/" + flyer}>
-                    <div class="show-description">
+                    {#if flyer != null}
+                        <img class="show-image" alt="Flyer for {name}" src={"/flyers/" + flyer}>
+                    {/if}
+                    <div class={"show-description" + ( flyer == null ? " noflyer" : "" )}>
                         <p>{lineup.join(", ")}</p>
                         <p>
                             {formatDate(date)}
@@ -57,10 +59,23 @@
         margin: 1em 0 2.5em 0;
     }
 
+    .section-title {
+        text-align: center;
+    }
+
+    .show-title {
+        text-align: center;
+    }
+
     .show-info {
         display: flex;
         flex-direction: row;
         gap: 2%;
+        justify-content: center;
+    }
+
+    .noflyer {
+        text-align: center;
     }
 
     .show-image, .show-description {
