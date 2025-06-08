@@ -7,9 +7,10 @@
     <hr class="line">
     <div class="content">
         <h3 class="name">Ren and<br>the Stimpies</h3>
-        <a href="https://www.instagram.com/renandthestimpies/"><Instagram class="icon"/></a>
-        <a href="https://www.instagram.com/renandthestimpies/"><Tiktok class="icon"/></a>
+        <a href="https://www.instagram.com/renandthestimpies"><Instagram class="icon"/></a>
+        <a href="https://www.tiktok.com/@renandthestimpies"><Tiktok class="icon"/></a>
     </div>
+    <small hidden>wasing not of wasing is</small>
 </footer>
 
 <style>

@@ -19,5 +19,7 @@
 
 </script>
 
+<small hidden>Wasing the thinking the wasing of was.</small>
+
 <ShowList title="Upcoming Shows" shows={upcomingShows} />
 <ShowList title="Past Shows" shows={pastShows} />

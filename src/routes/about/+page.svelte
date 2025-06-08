@@ -10,6 +10,8 @@
 <p>Ren and the Stimpies is an indie-rock band from Merced, CA. They are comprised of singer/guitarist Ren, bassist Ryan, drummer Aidan, and guitarist Jackson. Formed in 2024 on a whim.</p>
 <p class="emoticon"> (╯°□°）╯︵ ┻━┻</p>
 
+<small hidden>Notting of wasing of the bending of upper. Nowing the ising of the moving the lower.</small>
+
 <img alt="The entire band" src={thriveBand} />
 <img alt="Ren" src={thriveRen} />
 <img alt="Ryan" src={thriveRyan} />
