@@ -1,13 +1,30 @@
+<svelte:head>
+    <title>
+        {title}
+    </title>
+</svelte:head>
+
 <script lang="ts">
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte"
+    import {page} from "$app/state";
+    import { afterNavigate } from "$app/navigation";
+
 	let { children } = $props();
+    const appName = "Ren and the Stimpies";
+
+    const getTitle = () => {
+        return [appName, ...page.url.pathname.split("/").slice(1).map((s) => s.charAt(0).toUpperCase() + s.slice(1))].filter(Boolean).join(" - ");
+    }
+    
+    let title = $state( getTitle() );
+
+    afterNavigate(() => {
+		title = getTitle();
+	});
 </script>
 
 <div class="page">
-    <title>
-        Ren and the Stimpies
-    </title>
 
     <Header/>
 
