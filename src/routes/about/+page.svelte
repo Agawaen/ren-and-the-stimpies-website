@@ -23,6 +23,6 @@
 
     img {
         width: 100%;
-        margin: 1em 0;
+        margin: 0.8em 0;
     }
 </style>
