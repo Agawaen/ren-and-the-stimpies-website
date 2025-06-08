@@ -56,14 +56,10 @@
 
 <style>
     article {
-        margin: 1em 0 2.5em 0;
+        margin: 1em 0 3.5em 0;
     }
 
-    .section-title {
-        text-align: center;
-    }
-
-    .show-title {
+    .section-title, .show-title {
         text-align: center;
     }
 
@@ -91,6 +87,10 @@
         .show-image,
         .show-description {
             max-width: 100%;
+        }
+
+        .show-description {
+            text-align: left;
         }
     }
 </style>
