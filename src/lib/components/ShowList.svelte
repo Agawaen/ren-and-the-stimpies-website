@@ -76,6 +76,7 @@
 
     .noflyer {
         text-align: center;
+        max-width: 100% !important;
     }
 
     .show-image, .show-description {
