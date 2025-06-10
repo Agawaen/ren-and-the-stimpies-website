@@ -4,7 +4,8 @@
 </script>
 
 <footer>
-    <hr class="line">
+    <hr class="line first-line">
+    <hr class="line second-line">
     <div class="content">
         <h3 class="name">Ren and<br>the Stimpies</h3>
         <a href="https://www.instagram.com/renandthestimpies"><Instagram class="icon"/></a>
@@ -32,8 +33,15 @@
         width: 100%;
         height: 1px;
         border-width: 0;
-        margin: 1em 0 0 0;
-        background-color: var(--color-text);
+        margin: 3px;
+    }
+
+    .first-line {
+        background-color: var(--color-primary);
+    }
+
+    .second-line {
+        background-color: var(--color-secondary);
     }
 
     .content {

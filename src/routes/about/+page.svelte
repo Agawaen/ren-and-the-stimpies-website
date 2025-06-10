@@ -39,6 +39,6 @@
 
     .credits {
         text-align: center;
-        margin: 3em 0;
+        margin: 3em 0 4em 0;
     }
 </style>
